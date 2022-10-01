@@ -1,0 +1,57 @@
+/* Name Selector */
+p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 50px;
+    color: red;
+}
+
+h1 {
+    color: brown
+}
+
+h3 {
+    color: aquamarine;
+}
+
+/* Id Selector */
+
+#h3green {
+    color: green;
+}
+
+#h3black {
+    color:black;
+}
+
+#spanBrown {
+    color: brown;
+}
+
+/* Class Selector */
+.classBlue {
+    color: blue;
+}
+
+.classRed {
+    color: red;
+}
+
+.classGreen {
+    color: green;
+}
+
+/* Universal Selector */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.classGreen #spanBrown h3{
+    color: yellow;
+}
+
+* {
+
+    background-color: yellow;
+}
