@@ -1,0 +1,14 @@
+.dim {
+    background-color: yellow;
+    min-width: 25%;
+    max-width: 50%;
+    min-height: 25%;
+    max-height: 50%;
+}
+
+.displayCss {
+    border: 2px solid red;
+    padding: 20px;
+    margin: 40px;
+    display: inline-block;
+}
