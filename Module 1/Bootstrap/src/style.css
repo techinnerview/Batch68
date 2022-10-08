@@ -1,0 +1,16 @@
+.bgColorRed { 
+    background-color: red;
+    border: 1px solid black;
+}
+.bgColorBlue { 
+    background-color: blue;
+    border: 1px solid black;
+}
+.bgColorYellow { 
+    background-color: yellow;
+    border: 1px solid black;
+}
+.bgColorGreen { 
+    background-color: green;
+    border: 1px solid black;
+}
