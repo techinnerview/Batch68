@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Home</title> <!-- Title of WebPage -->
+    <link rel="stylesheet" href="./home.css"> <!-- Linking External CSS -->
+    <link rel="icon" href="./Images/homepageimg.png"> <!-- Adding Icon to WebPage -->
+    <!-- Linking Bootstrap through CDN -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+    <!-- Adding Wallpaper -->
+    <img src="./Images/homepageimg.png" width=100% height=450>
+    <div>
+        <!-- Adding Logo -->
+        <div class="logo">
+            <p>e!</p>
+        </div>
+        <!-- Adding Heading  -->
+        <div class="headings">
+            Find the best restaurants, cafes, bars
+        </div>
+        <!-- Adding DD + SearchBar -->
+        <div class="locationSelector">
+            <select class="locationDropdown">
+                <option value="0" selected disabled>Select</option>
+                <option value="1">Sarjapura,Bangalore</option>
+                <option value="1">HSR Layout,Bangalore</option>
+                <option value="1">Kormangala,Bangalore</option>
+                <option value="1">Bannerghata Road,Bangalore</option>
+            </select>
+            <div>
+                <input class="restaurantsinput" type="text" placeholder="Please Enter Restaurant Name" />
+                <span class="glyphicon glyphicon-search search"></span>
+            </div>
+        </div>
+    </div>
+    <!-- Adding Heading -->
+    <div class="quicksearch">
+        <p class="quicksearchHeading">
+            Quick Searches
+        </p>
+        <p class="quicksearchSubHeading">
+            Discover restaurants by type of meal
+        </p>
+        <!-- Creating CSS Grid - Rows & Columns -->
+        <!-- Creating CSS Responsive Conatiner -->
+        <div class="container-fluid">
+            <!-- Adding Row -->
+            <div class="row">
+                <!-- Adding Items in Column -->
+                <div class="col-sm-12 col-md-6 col-lg-4">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="./Images/breakfast.jpg" height=150 width=140 />
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Breakfast
+                            </div>
+                            <div class="componentSubHeading">
+                                Start your day with exclusive breakfast.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adding Items in Column -->
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="./Images/lunch.jpg" height="150" width="140" />
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Lunch
+                            </div>
+                            <div class="componentSubHeading">
+                                Start your day with exclusive lunch.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adding Items in Column -->
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="./Images/snacks.png" height="150" width="140" />
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Snacks
+                            </div>
+                            <div class="componentSubHeading">
+                                Start your day with exclusive snacks.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Adding Row -->
+            <div class="row">
+                <!-- Adding Items in Column -->
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="./Images/dinner.png" height="150" width="140" />
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Dinner
+                            </div>
+                            <div class="componentSubHeading">
+                                Start your day with exclusive dinner.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adding Items in Column -->
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="./Images/drinks.png" height="150" width="140" />
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                Drinks
+                            </div>
+                            <div class="componentSubHeading">
+                                Start your day with exclusive drinks.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- Adding Items in Column -->
+                <div class="col-sm-12 col-md-12 col-lg-4">
+                    <div class="tileContainer">
+                        <div class="tileComponent1">
+                            <img src="./Images/nightlife.png" height="150" width="140" />
+                        </div>
+                        <div class="tileComponent2">
+                            <div class="componentHeading">
+                                NightLife
+                            </div>
+                            <div class="componentSubHeading">
+                                Start your day with exclusive nightlife.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
