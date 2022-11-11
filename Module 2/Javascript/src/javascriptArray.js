@@ -46,6 +46,7 @@ function arrConcat() {
 
         var arrOutput2 = str2Arr.concat(str1Arr);
         console.log(arrOutput2);
+
 }
 
 function arrPush() {
@@ -94,7 +95,7 @@ function arrSort() {
         // console.log(a1);
 
         console.log(a2);
-        a2.sort(function (a, b) { return a - b });
+        a2.sort(function (a, b) { return b - a }); // ascending sort
         console.log(a2);
 }
 
@@ -125,10 +126,12 @@ function arrLoops() {
         // }
 
         var count = a2.length - 1;
-        while(count >=  0){
-                console.log("Value at Index poisition " + count +  " is "+ a2[count]);
+        while (count >= 0) {
+                console.log("Value at Index poisition " + count + " is " + a2[count]);
                 count--;
+                for (item = a2.length - 1; item >= 0; item--) {
+                        console.log("Value at Index poisition " + item + " is " + a2[item]);
+                }
         }
-
 
 }

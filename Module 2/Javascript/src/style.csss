@@ -1,0 +1,7 @@
+ .abc {
+        background-image: lineargradient(blue, green)
+    }
+
+    .hideme {
+        display: none
+    }
