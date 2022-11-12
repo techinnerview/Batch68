@@ -132,6 +132,18 @@ function arrLoops() {
                 for (item = a2.length - 1; item >= 0; item--) {
                         console.log("Value at Index poisition " + item + " is " + a2[item]);
                 }
-        }
+        }       
 
+}
+
+
+
+function getSquares(inputArr) { // [1,2,3,4,5] => [1,2,9,16,25]
+        var outputArr = [];
+        for (var i = 0; i < inputArr.length; i++) {
+                if (!isNaN(inputArr[i])) {
+                        outputArr.push(inputArr[i] * inputArr[i])
+                }
+        }
+        return outputArr
 }
