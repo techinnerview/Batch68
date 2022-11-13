@@ -38,3 +38,60 @@ function classExample() {
         ford.displaycc();
 }
 
+
+class restaurantManager {
+        restaurantList = [{
+                id: 1,
+                name: "Punjabi Tadka",
+                city: "Delhi",
+                orderData: {
+                        'Below 500': 20,
+                        '500-1000': 29,
+                        '1000-1500': 30,
+                        '1500-2000': 44,
+                        'Above 2000': 76
+                }
+        },
+        {
+                id: 1,
+                name: "Punjabi Tadka",
+                city: "Bangalore",
+                orderData: {
+                        'Below 500': 20,
+                        '500-1000': 29,
+                        '1000-1500': 30,
+                        '1500-2000': 44,
+                        'Above 2000': 76
+                }
+        },
+        {
+                id: 1,
+                name: "Punjabi Tadka",
+                city: "Kolkata",
+                orderData: {
+                        'Below 500': 20,
+                        '500-1000': 29,
+                        '1000-1500': 30,
+                        '1500-2000': 44,
+                        'Above 2000': 76
+                }
+        }]
+        constructor(restaurantList) {
+                this.restaurantList = restaurantList
+        }
+        printAllRestaurantNames() {
+                this.restaurantList.map((item) => {
+                        console.log(item.name);
+                })
+
+        }
+
+        filterRestaurantByCity(city) {
+                var output = this.restaurantList.filter((item) => {
+                        item.city = city
+                })
+                console.log(output)
+
+        }
+}
+
