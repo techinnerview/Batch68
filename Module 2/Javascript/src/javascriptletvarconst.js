@@ -1,5 +1,5 @@
 function letVarConstExample() {
-
+var a = 100;
         if (true) {
                 var a = 20;
                 let b = 30;
@@ -11,7 +11,13 @@ function letVarConstExample() {
                 console.log(arr)
 
         }
-        console.log(a) // 20
-        console.log(b) //throw error
-        console.log(c) //throw error
+        // console.log(a) // 20
+        // console.log(b) //throw error
+        // console.log(c) //throw error
+
+        var text = "Edureka";
+        var text2 = "Edureka";
+        var text3 = "Edureka";
+        var str = `Welcome to <br> ${text} ${text2} ${text3}`;
+        document.write(str);
 }

@@ -38,9 +38,46 @@ function classExample() {
         ford.displaycc();
 }
 
+function assignmentExample() {
+        class restaurantManager {
 
-class restaurantManager {
-        restaurantList = [{
+                constructor(restaurantList) {
+                        this.restaurantList = restaurantList
+                }
+
+                constructor(restaurantList, rating) {
+                        this.restaurantList = restaurantList
+                        this.rating = rating
+                }
+                printAllRestaurantNames() {
+                        if (this.restaurantList.length > 0) {
+                                this.restaurantList.map((item) => {
+                                        console.log(item.name);
+                                })
+                        } else {
+                                console.log("No Restaurant found !!")
+                        }
+
+
+                }
+
+                filterRestaurantByCity(city) {
+                        var output = this.restaurantList.filter((item) => {
+                                return item.city === city
+                        })
+                        console.log(output)
+
+                }
+
+                filterRestaurantByCity = (cityName) => {
+                        var output = this.restaurantList.filter((item) => {
+                                return item.city === cityName
+                        })
+                        console.log(output)
+                }
+        }
+
+        var data = restaurantList = [{
                 id: 1,
                 name: "Punjabi Tadka",
                 city: "Delhi",
@@ -54,7 +91,7 @@ class restaurantManager {
         },
         {
                 id: 1,
-                name: "Punjabi Tadka",
+                name: "Dominos",
                 city: "Bangalore",
                 orderData: {
                         'Below 500': 20,
@@ -66,7 +103,7 @@ class restaurantManager {
         },
         {
                 id: 1,
-                name: "Punjabi Tadka",
+                name: "KFC",
                 city: "Kolkata",
                 orderData: {
                         'Below 500': 20,
@@ -75,23 +112,34 @@ class restaurantManager {
                         '1500-2000': 44,
                         'Above 2000': 76
                 }
-        }]
-        constructor(restaurantList) {
-                this.restaurantList = restaurantList
-        }
-        printAllRestaurantNames() {
-                this.restaurantList.map((item) => {
-                        console.log(item.name);
-                })
+        },
+        {
+                id: 1,
+                name: "ZYX",
+                city: "Bangalore",
+                orderData: {
+                        'Below 500': 20,
+                        '500-1000': 29,
+                        '1000-1500': 30,
+                        '1500-2000': 44,
+                        'Above 2000': 76
+                }
+        }];
 
-        }
+        var obj = new restaurantManager(data);
+        obj.printAllRestaurantNames();
 
-        filterRestaurantByCity(city) {
-                var output = this.restaurantList.filter((item) => {
-                        item.city = city
-                })
-                console.log(output)
+        console.log("==========================")
+        var input = prompt("Enter the city Name")
+        obj.filterRestaurantByCity(input);
 
-        }
+
+        var obj2 = new restaurantManager(data);
+        obj2.printAllRestaurantNames();
+
+        var obj3 = new restaurantManager(data, "5star");
+        obj2.printAllRestaurantNames();        
+        
 }
+
 
