@@ -1,8 +1,19 @@
+var counter = 0;
+function displayMessage(){
+        // setTimeout(displayCustomMessage, 3000, "Edureka", "Internship Program");
+        setInterval(displayCustomMessage, 2000, "Edureka", "Internship Program");
+}
+function displayCustomMessage(val1, val2){
+        alert(val1 + " provides " + val2);
+}
 
 function CallBackExample() {
 
         function alertMe(value) {
                 alert(value);
+        }
+        function alertMe(value1, value2) {
+                alert(value1 + ',' + value2);
         }
         function consoleMe(value) {
                 console.log(value);
@@ -11,9 +22,11 @@ function CallBackExample() {
                 document.write(value);
         }
 
+       
         function calculateSum(num1, num2, callbackFunction1, callbackFunction2, callbackFunction3) {
                 var sum = num1 + num2;
-                callbackFunction1(sum);
+                var product = num1 * num2;
+                callbackFunction1(sum, product);
                 callbackFunction2(sum);
                 callbackFunction3(sum);
         }
@@ -45,15 +58,15 @@ function promiseExample() {
 
 function promiseChaining() {
         let myChainingPromise = new Promise(function (resolve, reject) {
-                setTimeout(() => reject('Failure'), 3000); // 3000 means 3 seconds
+                setTimeout(() => reject('Error'), 3000); // 3000 means 3 seconds
         }).then(function (value) {
-                alert(value);
+                alervalt(value); //Success
                 return "another success"
         }).then(function (value) {
-                alert(value);
+                alert(value);  //another success
                 return "Edureka"
         }).then(function (value) {
-                alert(value);
+                alert(value); //Edureka
                 return null;
         }).catch(function (error) {
                 alert(error);
@@ -69,12 +82,15 @@ function promiseMultipleApiCalls() {
         ];
 
         // map every url to the promise of the fetch
-        let requests = urls.map(url => fetch(url));
+        let requests = urls.map(url => fetch(url, object));
 
         // Promise.all waits until all jobs are resolved
         Promise.all(requests)
                 .then(responses => responses.forEach(
                         response => alert(`${response.url}: ${response.status}`)
 
-                ));
+                ))
+                .catch(function(error) {
+                        alert(error);
+                })
 }
