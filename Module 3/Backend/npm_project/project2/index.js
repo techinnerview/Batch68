@@ -1,6 +1,6 @@
 const chalk = require('chalk');
 
-console.log(chalk.green("Hello Everyone !!!!!!!!!!!!!!!!!!!!"));
+console.log(chalk.blue("Testing Chalk Package"));
 console.log(chalk.blue("WELCOME TO EDUREKA"));
 console.log(chalk.underline.red("WELCOME TO EDUREKA"));
 console.log(chalk.underline.yellow("WELCOME TO EDUREKA"));

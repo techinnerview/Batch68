@@ -1,0 +1,19 @@
+Operation:
+    C - Create
+    R - Read
+    U - Update
+    D - Delete
+
+HTTP Methods:
+    POST - Create/Insert Data (C)
+    GET - Fetch Data (R)
+    PUT - Update the Data (U)
+    DELETE - Delete the Data (D)
+
+
+Steps to Create API:
+1. npm i -g express-generator - For only first time
+2. npx express-generator
+3. npm start
+4. Routing part (Main route in app.js => sub routes)
+5. Verify the running API from Postman
