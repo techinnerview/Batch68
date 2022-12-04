@@ -1,0 +1,31 @@
+[
+    {
+        "userId": "001",
+        "userName": "Suresh",
+        "Address": "Bangalore",
+        "City": "Bangalore"
+    },
+    {
+        "userId": "002",
+        "userName": "Suresh",
+        "Address": "Bangalore",
+        "City": "Bangalore",
+        "contactDetails": {
+            "phone": "098709870",
+            "email": "test@test.com"
+        }
+    },
+    {
+        "userId": "002",
+        "userName": "Suresh",
+        "Address": "Bangalore",
+        "City": "Bangalore",
+        "contactDetails": {
+            "phone": "098709870",
+            "email": "test@test.com"
+        },
+        "AccountDetails": {
+            "accountNumber": "987987987987987"
+        }
+    }
+]
