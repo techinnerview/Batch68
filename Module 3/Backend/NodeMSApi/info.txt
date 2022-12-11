@@ -1,0 +1,56 @@
+"steps": {
+        "1.": "npm express-generator",
+        "2.": "npm install",
+        "3.": "Created another route for product (productRoute.js)",
+        "4.": "install mongoose",
+        "5.": "in app.js -> imported mongoose",
+        "6.": "created properties.js and added DB_URL constant in it",
+        "7.": "imported properties.js in app.js",
+        "8.": "mongoose.connect(DB_URL)",
+        "9.": "Created product model inside the models folder",
+        "10.": "In productModel, we have defined the schema and mapped the collection with the schema",
+        "11.": "in productRoute, added the reference of productModel and modified the AddProduct API accordingly",
+        "12.": "To get all the products, need to add another API called getAllProducts",
+        "13.": "Using the productModel, call the find method with the HTTP GET method",
+        "14.": "You can add additional get calls to findById aor findByName",
+        "15.": "Using the productModel, call the update method with the HTTP PUT method",
+        "16.": "You can add additional update calls to findByIdAndUpdate and so on",
+        "17.": "Using the productModel, call the delete method with the HTTP DELETE method",
+        "18.": "You can add additional get calls to remove or findByIdAndDelete and so on"
+    }
+	
+	
+MongoDb Commands:
+
+	db.dropDatabase()
+	show databases
+	use <dbName>
+	db.createCollection("mycollection")
+	show collections
+	db.createCollection("mycol", { capped : true, autoIndexID : true, size : 6142800, max : 10000 } )
+	db.tutorialspoint.insert({"name" : "tutorialspoint"})
+
+	db.collection.insertOne()
+	db.collection.insertMany()
+
+	find()
+	db.RecordsDB.find({"species":"Cat"})
+	findOne()
+	db.RecordsDB.find({"age":"8 years"})
+
+	db.RecordsDB.updateOne({name: "Marsh"}, {$set:{ownerAddress: "451 W. Coffee St. A204"}})
+	db.collection.update()
+	db.collection.updateOne()
+	db.collection.updateMany()
+
+	Replace will replace the whole document
+	db.collection.replaceOne()
+	db.RecordsDB.replaceOne({name: "Kevin"}, {name: "Maki"})
+
+	db.collection.deleteOne()
+	db.collection.deleteMany()
+
+
+Assignment 5 link: https://s3.amazonaws.com/module-non-videos/assignment_5%20node_t7r_5pdzt9b.pdf
+
+Assignment 6 link: https://s3.amazonaws.com/module-non-videos/assignment_6%20node_4gu_tx86zfl.pdf
