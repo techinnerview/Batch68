@@ -1,0 +1,41 @@
+[
+    {
+        "_id": "5ef36a9355d50a33782474be",
+        "name": "ShalimarBhagh, Delhi",
+        "city_id": "1",
+        "location_id": "1",
+        "country_name": "India"
+    },
+    {
+        "_id": "5ef36ad855d50a33782474bf",
+        "name": "Janpat, Delhi",
+        "city_id": "1",
+        "location_id": "2",
+        "country_name": "India",
+        "__v": 0
+    },
+    {
+        "_id": "5ef36af555d50a33782474c0",
+        "name": "MSP, Delhi",
+        "city_id": "1",
+        "location_id": "3",
+        "country_name": "India",
+        "__v": 0
+    },
+    {
+        "_id": "5ef36b1255d50a33782474c1",
+        "name": "MSP, Pune",
+        "city_id": "2",
+        "location_id": "4",
+        "country_name": "India",
+        "__v": 0
+    },
+    {
+        "_id": "5f75cebeffda9e1ce009d907",
+        "name": "Anand Vihar, Delhi",
+        "city_id": "1",
+        "location_id": "5",
+        "country_name": "India",
+        "__v": 0
+    }
+]

@@ -1,0 +1,76 @@
+[
+    {
+        "thumb": [
+            "https://b.zmtcdn.com/data/pictures/chains/3/6303/640252389ddc3f264dd0e9f2741e73cd.jpg",
+            "https://b.zmtcdn.com/data/pictures/chains/3/6303/640252389ddc3f264dd0e9f2741e73cd.jpg",
+            "https://b.zmtcdn.com/data/pictures/chains/3/6303/640252389ddc3f264dd0e9f2741e73cd.jpg",
+            "https://b.zmtcdn.com/data/pictures/chains/3/6303/640252389ddc3f264dd0e9f2741e73cd.jpg"
+        ],
+        "type": [
+            1,
+            3,
+            5
+        ],
+        "_id": "5efb3f4e8f93dc4593e2885a",
+        "name": "Domino's",
+        "city": "Delhi",
+        "location_id": 1,
+        "city_id": 1,
+        "locality": "ShalimarBhag",
+        "aggregate_rating": 4.2,
+        "rating_text": "Very Good",
+        "min_price": 666,
+        "contact_number": 3945352465,
+        "cuisine_id": 2,
+        "image": "assets/breakfast.png",
+        "mealtype_id": 2
+    },
+    {
+        "thumb": [
+            "https://b.zmtcdn.com/data/pictures/chains/3/6303/640252389ddc3f264dd0e9f2741e73cd.jpg",
+            "https://b.zmtcdn.com/data/pictures/chains/3/6303/640252389ddc3f264dd0e9f2741e73cd.jpg",
+            "https://b.zmtcdn.com/data/pictures/chains/3/6303/640252389ddc3f264dd0e9f2741e73cd.jpg",
+            "https://b.zmtcdn.com/data/pictures/chains/3/6303/640252389ddc3f264dd0e9f2741e73cd.jpg"
+        ],
+        "type": [
+            ""
+        ],
+        "_id": "5efb3f988f93dc4593e2ba61",
+        "name": "KFC",
+        "city": "Delhi",
+        "location_id": 1,
+        "city_id": 1,
+        "locality": "ShalimarBhag",
+        "aggregate_rating": 4.2,
+        "rating_text": "Very Good",
+        "min_price": 230,
+        "contact_number": 3945352465,
+        "cuisine_id": 3,
+        "mealtype_id": 2
+    },
+    {
+        "thumb": [
+            "https://b.zmtcdn.com/data/pictures/chains/3/6303/640252389ddc3f264dd0e9f2741e73cd.jpg",
+            "https://b.zmtcdn.com/data/pictures/chains/3/6303/640252389ddc3f264dd0e9f2741e73cd.jpg",
+            "https://b.zmtcdn.com/data/pictures/chains/3/6303/640252389ddc3f264dd0e9f2741e73cd.jpg",
+            "https://b.zmtcdn.com/data/pictures/chains/3/6303/640252389ddc3f264dd0e9f2741e73cd.jpg"
+        ],
+        "type": [
+            1,
+            3,
+            5
+        ],
+        "_id": "5efb3fbb8f93dc4593e2d393",
+        "name": "Burger King",
+        "city": "Pune",
+        "location_id": 1,
+        "city_id": 1,
+        "locality": "ShalimarBhag",
+        "aggregate_rating": 4.2,
+        "rating_text": "Very Good",
+        "min_price": 999,
+        "contact_number": 3945352465,
+        "cuisine_id": 5,
+        "mealtype_id": 2
+    }
+]

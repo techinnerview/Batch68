@@ -13,6 +13,7 @@ addProduct = (req, res, next) => {
         else
             res.send({ "Status": "200", "response": response });
     });
+    
 }
 
 getAllProducts = (req, res, next) => {
@@ -21,7 +22,17 @@ getAllProducts = (req, res, next) => {
             res.send({ "message": "Exception Occurred", "response": err })
         else
             res.send({ "status": "200", "response": response });
+
+            const result = response.filter((item) => {
+                return item.price <= req.body.price && 
+                item.category === req.body.category
+            })
+            if(req.bosy.sortOption === 'ascending'){
+                result.sort();
+            }
+            res.send(result);
     })
+    next();
 }
 
 getProductByCategory = (req, res, next) => {
