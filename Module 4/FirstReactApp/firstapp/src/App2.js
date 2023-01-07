@@ -13,6 +13,7 @@ class App2 extends React.Component {
       counter: 0
     }
   }
+  
   // Mounting
   // Updating
   static getDerivedStateFromProps(props, state) {
@@ -48,6 +49,10 @@ class App2 extends React.Component {
 
   handleChange() {
     this.props.callbackfromchild("Hello Evryone");
+  }
+
+  componentWillUnmount(){
+
   }
 
   // Mounting

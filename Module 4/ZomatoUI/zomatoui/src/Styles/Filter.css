@@ -1,0 +1,230 @@
+
+.Filterbreakfast{
+  color: #192f60;
+  margin-left: 28px;
+  font-size: 30px;
+  font-family: Poppins;
+}
+.Filters {
+  height: 25px;
+  margin-top: 28px;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+  width: 300px;
+  margin-left: 30px;
+  display: block;
+}
+.Filterrectangle {
+  width: 300px;
+  height: 682px;
+  margin: 15px 45px 8px 30px; /* Margin 15px*/
+  padding: 17px 25px 31px 26px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: var(--white);
+}
+.FilterFilt {
+  width: 75px;
+  height: 25px;
+  margin: 0 154px 10px 0;
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+#Filtermain{
+  display:unset;
+}
+#Filtersymbol{
+   float: right;
+   display: unset;
+}
+.FilterItems {
+  width: 800px;
+    height: 300px;
+  padding: 25px 32.6px 20px 35px;
+  box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.16);
+  background-color: var(--white);
+  margin-bottom: 30px;
+  margin-top: 26px;
+}
+.FilterPic1 {
+  width: 110px;
+  height: 110px;
+  margin: 0 41px 31px 0;
+  object-fit: fit;
+  border: 1px none;
+  border-radius: 10px;
+}
+.FilterTheBigChill{
+  vertical-align: top;
+    font-size: 24px;
+    font-family: Poppins;
+    font-weight: 600;
+    color: #192f60;
+    margin: -133px 35px -7px 142px;
+}
+.FilterFort{
+  vertical-align: top;
+    font-size: 16px;
+    font-family: Poppins;
+    font-weight: 500;
+    color: #192f60;
+    margin: 10px 267.4px 5px 143px;
+}
+.FilterAddress{
+  vertical-align: top;
+  font-size: 16px;
+  font-family: Poppins;
+  font-weight: 500;
+  color: #636f88;
+  margin: 10px 267.4px 5px 141px;
+  width: 400px;
+}
+.CostFilter{
+  width: 120px;
+    height: 25px;
+    margin: 24px 71px 15px 0;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.CuisineFilter{
+  width: 120px;
+    height: 25px;
+    margin: 24px 71px 15px 0;
+    padding: 24px 71px 15px 0;
+    font-family: Poppins;
+    font-size: 15px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: left;
+    color: #192f60;
+}
+.check{
+  width: 20px;
+  height: 18px;
+  border: 10px solid #3a5075;
+  }
+.head{
+font-weight: 400;
+font-size: 16px;
+font-family: Poppins;
+vertical-align: top;
+color: #8c96ab;
+margin: 5px 0px 0px 5px;
+}
+.radiobutton{
+  width: 20px;
+  height: 18px;
+  border: 1.5px solid #435c86;
+  border-radius: 9px;
+  margin-bottom: 10px;
+}
+hr{
+  width: 735px;
+  margin: 50px 25px 0 0px;
+  border: solid 1px #e1dedef5
+}
+.FilterCUISINES{
+  vertical-align: top;
+  font-size: 15px;
+  font-family: Poppins;
+  font-weight: 500;
+  color: #636f88;
+  margin-top: 40px;
+}
+.FilterCOSTFORTWO{
+vertical-align: top; font-size: 15px;font-family: Poppins; font-weight: 500;color:#636f88;margin-top: 5px;
+}
+.FilterBakery{
+vertical-align: top; font-size: 15px;font-family: Poppins; font-weight: 500;color:#192f60;margin-top: -45px;margin-left: 190px;
+}
+.FilterSevenHundred{
+vertical-align: top; font-size: 15px;font-family: Poppins; font-weight: 500;color:#192f60;margin-top: 5px;margin-left: 190px;
+}
+.Filter-Select-Location {
+  width: 106px;
+  height: 20px;
+  margin: 10px 102px 11px 1px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: left;
+  color: #192f60;
+}
+.Filterdropdown {
+  width: 208px;
+  font-family: Poppins;
+  margin: 0 61.1px 0 0;
+  padding: 8px 16.7px 7px 15px;
+  border-radius: 3px;
+  border: solid 1px #8c96ab;
+  color: #8c96ab;
+}
+
+.FilterSort {
+width: 37px;
+height: 25px;
+margin: 29px 172px 15px 0;
+font-family: Poppins;
+font-size: 15px;
+font-weight: 600;
+font-stretch: normal;
+font-style: normal;
+line-height: 1.5;
+letter-spacing: normal;
+text-align: left;
+color: #192f60;
+}
+
+.Filterpagination a {
+  color:grey;
+  padding: 5px 10px;
+  text-decoration: none;
+  transition: background-color .3s;
+  border: 1px solid #8c96ab;
+  border-radius: 5px;
+}
+
+.Filterpagination a.active {
+  background-color:#8c96ab;
+  color: white;
+}
+
+.Filterpagination a:hover:not(.active) {background-color: #ddd;}
+a{
+  border:1px solid #8c96ab;
+}
+.NotFound{
+  font-size: 40px;
+    color: #2e1747;
+    font-weight: 600;
+    margin-top: 150px;
+    margin-left: 160px;
+    font-style: oblique;
+}
