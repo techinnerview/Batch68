@@ -1,5 +1,6 @@
 import React from 'react';
 import '../../Styles/quicksearch.css';
+import { Navigate } from 'react-router-dom';
 
 // Class Component
 class QuickSearch extends React.Component {
@@ -11,7 +12,7 @@ class QuickSearch extends React.Component {
     }
 
     navigateToFilter = () => {
-        this.props.history.push(`/filter`)
+        this.props.history.push(`/details`)
     }
 
     render() {
