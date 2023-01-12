@@ -1,0 +1,173 @@
+.app_header
+{
+    height: 80px;
+    background-color: #ce0505;
+    text-align:center;
+    font-size: larger;
+}
+.signUp-login {
+    margin: 15px 55px 55px 55px;
+    width: 286px;
+    height: 46px;
+    font-size: 15px;
+    font-weight: 500;
+    color: white;
+    background-color: #759e33;
+    border: none;
+}
+    .inputsFirst {
+            position: absolute;
+            top: 28%;
+            left: 45%;
+            border: 2px solid;
+    }
+    .inputsSecond {
+        position: absolute;
+        top: 37%;
+        left: 45%;
+        border: 2px solid;
+    }
+    .loginButton {
+        background-color: #759e33;
+        color: white;
+        border: none;
+        margin: 10px 10px 0px 5px;
+        border-radius: 2px;
+    }
+    .inputsThird {
+        position: absolute;
+        top: 46%;
+        left: 45%;
+        border: 2px solid;
+    }
+    .inputsFourth
+    {
+        position: absolute;
+        top: 56%;
+        left: 45%;
+        border: 2px solid;
+    }
+    .inputsFifth
+    {
+        position: absolute;
+        top: 65%;
+        left: 45%;
+        border: 2px solid;
+    }
+    .inputsSix{
+        position: absolute;
+        top: 74%;
+        left: 45%;
+        border: 2px solid;
+    }
+    hr {
+        width: 735px;
+        margin: 10px 25px 0 0px;
+        border: solid 1px #e1dedef5;
+    }
+    .lblSign{
+        font-size: medium;
+        font-weight: 600;
+        margin: 10px 10px 10px 10px;
+    }
+    .lblLast{
+        font-size: medium;
+        font-weight: 600;
+        margin: 10px 10px 10px 10px;
+    }
+/* {
+    font-weight: 700;
+    font-size: 17px;
+    margin-left: 143px;
+    margin-top: 18px;
+} */
+.below_button{
+    border: none;
+    background-color: white;
+
+}
+.headerE{
+    border-radius: 50%;
+    width: 52px;
+    height: 52px;
+    padding: 1px 10px 4px;
+    font-family: Poppins;
+    font-family: Poppins;
+    font-size: 33px;
+    font-weight: 600;
+    font-stretch: normal;
+    font-style: normal;
+    color: #ce0505;
+    background-color: #ffffff;
+    border: none;
+    top: 2%;
+    position: absolute;
+    left: 5%;
+}
+#login {
+    width: 55px;
+    height: 30px;
+    margin: 22px 200px 11px 9px;
+    background-color: #ce0505;
+    border: none;
+    color: #ffffff;
+    float: right;
+}
+#userName {
+        width: 120px;
+        height: 30px;
+        margin: 22px 147px 11px -29px;
+        background-color: #ce0505;
+        border: none;
+        color: #ffffff;
+        float: right;
+}
+.GoogleLogin{
+    width:286px;
+    margin: 55px 55px 30px 55px;
+    font-size: 16px !important;
+    color: rgb(16 14 14 / 92%) !important;
+    padding: 10px 10px 10px 10px !important;
+}
+.kep-login-facebook.metro {
+    border-radius: 0;
+    height: 50px !important;
+    width: 286px !important ;
+    margin-top: -15px !important;
+}
+.kep-login-facebook {
+    font-family: Helvetica,sans-serif;
+    font-weight: 400 !important;
+    -webkit-font-smoothing: antialiased;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-size: calc(.27548vw + 12.71074px);
+    text-decoration: none;
+    text-transform: capitalize !important;
+    transition: background-color .3s,border-color .3s;
+    background-color: #4c69ba;
+    border: calc(.06887vw + .67769px) solid #4c69ba;
+    padding: calc(.34435vw + 13.38843px) calc(.34435vw + 18.38843px);
+    padding: 10px !important;
+    margin: 15px 55px 55px 55px !important;
+}
+#logout {
+    width: 61px;
+    height: 30px;
+    margin: 22px -159px 11px 9px;
+    background-color: #ce0505;
+    border: none;
+    color: #ffffff;
+    float: right;
+}
+#create {
+    padding: 10px 15px 10px 15px;
+    background-color: #ce0505;
+    color: white;
+    border-radius: 5px;
+    float: right;
+    margin-top: 15px;
+    margin-right: -250px;
+    border: 1px solid white;
+}

@@ -1,0 +1,142 @@
+.MainPic{
+    width: 100%;
+    height: 480px;
+}
+.unorderedList{
+    margin: 0 auto;
+    padding: 0;
+    max-height: 390px;
+    overflow-y: auto;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 5px 5px 0 5px;
+    border-left: none;
+    border-right: none;
+}
+.locationSelector {
+    position: relative;
+    top: -238px;
+    margin-left: 27.5%;
+    margin-right: 20%;
+    text-align: center;
+}
+.listsOfRes{
+    list-style: none; 
+  background-color: lightgray; 
+  background-image: linear-gradient( 
+90deg
+, #90c54b 20px, #7d7d7d 10px);
+  padding: 10px 15px 10px 25px; 
+   border: 1px solid #CCC; 
+  box-shadow: inset 1px 1px 0 rgb(255 255 255 / 50%);
+  margin-bottom: 5px;
+  width: 100%;
+  box-sizing: border-box;
+  cursor: pointer;
+  border-radius: 3px
+}
+.locationDropdown {
+    height: 40px;
+    width: 245px;
+    color: #605c5c;
+    border: none;
+    border-radius: 0px;
+    font-size: 15px;
+    opacity: 1;
+    margin-right: 21px;
+    margin-bottom: 25px;
+    float: left;
+    font-weight: 500;
+}
+#query {
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 19px;
+    padding: 5px;
+    font-family: calibri light;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 3px;
+    background-color: #fcfbfb;
+    color: rgb(14, 13, 13);
+    padding-left: 29px;
+}
+.resIcon{
+    height: 45px;
+    width: 45px;
+}
+
+#notebooks {
+    position: absolute;
+    left: 38%;
+    width: 350px;
+    border-radius: 5px;
+    max-height: 450px;
+}
+.search {
+    position: absolute;
+    left: 39%;
+    top: 13px !important;
+    color: #120e0e;
+}
+
+.heading{
+    position:absolute;
+    top:35%;
+    font-size: 36px;
+    left:25%;
+    color:white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.53;
+  letter-spacing: normal;
+}
+.selectLocation{
+position: absolute;
+top:45%;
+left:28%;
+font-size: 15px;
+height: 60px;
+font-family: Poppins;
+font-style: normal;
+line-height: 1.53;
+letter-spacing: normal;
+}
+select.dd {
+    width: 194px;
+    height: 40px;
+    padding: 8px;
+    color: grey;
+    appearance: none;
+    font-family: Poppins;
+    }
+    .dd_search {
+    position: absolute;
+    top: 45%;
+    left: 35%;
+    }
+    input.search-box {
+    height: 40px;
+    top: 45px;
+    padding-left: 32px;
+    left: 45%;
+    width: 300px;
+    margin: 7px;
+    font-family: Poppins;
+    font-size: 14px;
+    }
+   
+    .logo{     
+        position: absolute;
+        top: 16%;
+        left:45%;
+        font-size: 70px;
+        color:#eb2929;
+        text-align: center;
+        font-weight: 500;
+        width: 110px;
+        height:110px;
+        background-color: white;
+        font-family: Poppins;
+        border-radius: 50%;
+    }  
