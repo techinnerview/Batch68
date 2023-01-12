@@ -1,6 +1,7 @@
 import React from 'react';
 import axios from 'axios';
 import '../../Styles/Filter.css';
+import { Link } from "react-router-dom"
 
 // Class Component
 class FilterRestaurants extends React.Component {
@@ -30,7 +31,12 @@ class FilterRestaurants extends React.Component {
         ).then(response => this.setState({ restaurantData: response.data })).catch()
     }
 
-    handleLocationChange = () => {
+    handleLocationChange = (data) => {
+
+        var result = this.state.restaurantData.filter((item) => {
+            return item.location === data;
+        })
+        this.setState({ restaurantData: result });
 
     }
 
@@ -118,28 +124,30 @@ class FilterRestaurants extends React.Component {
                     </div>
                     <div className='col-sm-8 col-md-8 col-lg-8'>
                         {restaurantData && restaurantData.map((item) => {
-                            return <div className='FilterItems'>
-                                <img src={item.image} className="FilterPic1" />
-                                <div className='FilterTheBigChill'>{item.name}</div>
-                                <div className='FilterFort'>{item.address}</div>
-                                <div className='FilterAddress'>{item.locality}, {item.city}</div>
-                                <div><hr /></div>
-                                <div className='FilterCUISINES'>CUISINES:</div>
-                                <div className='FilterCOSTFORTWO'>COST FOR TWO:</div>
-                                <div className='FilterBakery'>{item.cuisine}</div>
-                                <div className='FilterSevenHundred'>{item.min_price}</div>
-                            </div>
+                            return <Link to='/details'>
+                                <div className='FilterItems'>
+                                    <img src={item.image} className="FilterPic1" />
+                                    <div className='FilterTheBigChill'>{item.name}</div>
+                                    <div className='FilterFort'>{item.address}</div>
+                                    <div className='FilterAddress'>{item.locality}, {item.city}</div>
+                                    <div><hr /></div>
+                                    <div className='FilterCUISINES'>CUISINES:</div>
+                                    <div className='FilterCOSTFORTWO'>COST FOR TWO:</div>
+                                    <div className='FilterBakery'>{item.cuisine}</div>
+                                    <div className='FilterSevenHundred'>{item.min_price}</div>
+                                </div>
+                            </Link>
                         })}
                     </div>
                     <div className='col-sm-8 col-md-8 col-lg-8'>
                         {restaurantData && restaurantData.length > 0 ?
-                        <div className='Filterpagination' >
-                            <a href="#" >1</a>
-                            <a href="#" >2</a>
-                            <a href="#" >3</a>
-                            <a href="#" >4</a>
-                        </div> : `No Records Found`  
-                    }
+                            <div className='Filterpagination' >
+                                <a href="#" >1</a>
+                                <a href="#" >2</a>
+                                <a href="#" >3</a>
+                                <a href="#" >4</a>
+                            </div> : `No Records Found`
+                        }
                     </div>
                 </div>
             </div>

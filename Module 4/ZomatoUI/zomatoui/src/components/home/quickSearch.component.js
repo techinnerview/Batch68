@@ -1,6 +1,6 @@
 import React from 'react';
 import '../../Styles/quicksearch.css';
-import { Navigate } from 'react-router-dom';
+import { Link } from "react-router-dom"
 
 // Class Component
 class QuickSearch extends React.Component {
@@ -12,7 +12,6 @@ class QuickSearch extends React.Component {
     }
 
     navigateToFilter = () => {
-        this.props.history.push(`/details`)
     }
 
     render() {
@@ -23,15 +22,17 @@ class QuickSearch extends React.Component {
                 <div className="subheading">Discover Restaurants by type of meal</div>
                 <div className='row'>
                     {quicksearch && quicksearch.map((item) => {
-                        return <div className="col-sm-12 col-md-6 col-lg-4" onClick={this.navigateToFilter}>
-                            <div className="one">
-                                <div className='innerboxpic'><img className='Breakfast' src={item.image} /></div>
-                                <div className='secondbox'>
-                                    <div className='breakfastheading'>{item.name}</div>
-                                    <div className='breakfastdescription'>{item.content}</div>
+                        return <Link to='/filter'>
+                            <div className="col-sm-12 col-md-6 col-lg-4">
+                                <div className="one">
+                                    <div className='innerboxpic'><img className='Breakfast' src={item.image} /></div>
+                                    <div className='secondbox'>
+                                        <div className='breakfastheading'>{item.name}</div>
+                                        <div className='breakfastdescription'>{item.content}</div>
+                                    </div>
                                 </div>
                             </div>
-                        </div>
+                        </Link>
                     })}
                 </div>
             </div>
