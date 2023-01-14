@@ -1,0 +1,32 @@
+HTML - https://s3.amazonaws.com/module-non-videos/1113_htmlinterview_v1_kmt_z8qykda.pdf
+CSS - https://s3.amazonaws.com/module-non-videos/1113_cssinterview_v1_st8_ql4myoz.pdf
+Bootstrap: https://s3.amazonaws.com/module-non-videos/bootstrap_interview%20prep_a2s_mzxw0z8.pdf
+Javascript: https://s3.amazonaws.com/module-non-videos/1113_jsfile_m17_v1_emx_w1a13m5.pdf
+Node: https://s3.amazonaws.com/module-non-videos/1113_nodefile_v1_aen_gq5tbp6.pdf
+React: https://s3.amazonaws.com/module-non-videos/1113_reactjsfile_m17_v1_ved_m3eedzc.pdf
+
+
+
+Resume:
+
+2-3 Pages - try to fix in 2 pages
+
+1. Name, Linkedin profile
+2. Current position if you are working. Not working keep it blank
+3. work experience: Mention the duration, name of company and your role and technologies
+	a. Latest Company
+	b. Last Company
+4. Projects: Mention the duration, name of project and your role and technologies
+	a. Latest project
+	b. Last project
+5. Intership
+	Mention all certifications
+6. Acedemic Credentials
+	Latest Degree - Course Name, College Name, Duration and Percentage 
+	Last Degree - Course Name, College Name, Duration and Percentage 
+7. Key Accomplishment
+	Awards, Rewards
+8. Personal Dossier
+	Father's name
+	Language
+	Address
